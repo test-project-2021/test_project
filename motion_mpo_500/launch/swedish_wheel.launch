@@ -1,0 +1,7 @@
+<launch>
+    <!-- Start the velocities conversion program -->
+    <node pkg="motion_mpo_500" type="make_turn.py" name="swedish_wheel" output="screen" />
+    
+    <!-- Start publishing Twist messages -->
+    <!-- <node pkg="convert_velocities" type="publish_vels.py" name="publish_vel" output="screen" /> -->
+</launch>
