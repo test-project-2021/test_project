@@ -1,4 +1,4 @@
-from validator import Validator
+from tests.validator import Validator
 print("hi")
 username = 'Roman'
 validator = Validator()
