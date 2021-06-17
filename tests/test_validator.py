@@ -15,7 +15,7 @@ class test_validator(unittest.TestCase):
 
     def  test_reject_user_name_if_space(self):
         #Assume
-        username= 'R man'
+        username= 'Rman'
         validator = Validator()
 
 
